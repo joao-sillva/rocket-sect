@@ -3,3 +3,47 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #2C2B3D;
+  color: #fff;
+  height: 100vh;
+}
+
+#page {
+  width: 1092px;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+nav ul,
+section h1,
+footer {
+  font-family: "JetBrains Mono", sans-serif;
+}
+
+nav ul {
+  display: flex;
+  gap: 64px;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px; 
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav ul li a:hover {
+  color: #C2C2C2;
+}
