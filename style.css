@@ -94,3 +94,16 @@ footer {
   font-weight: 500;
   line-height: 28px;
 }
+
+#line {
+  width: 568px;
+  height: 0;
+  margin: 0 auto 27px;
+  border: 1px solid #00BFA6;
+}
+
+#padlock {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
