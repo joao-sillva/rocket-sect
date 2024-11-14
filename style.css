@@ -87,3 +87,10 @@ section p span {
   color: #00BFA6;
   font-weight: bold;
 }
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+}
