@@ -16,6 +16,19 @@ body {
   padding-top: 70px;
 }
 
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 77px;
+  margin-bottom: 100px; 
+}
+
+section {
+  width: 614px;
+  text-align: center;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -63,6 +76,10 @@ section p {
   font-size: 16px;
   font-weight: normal;
   line-height: 28px;
+}
+
+section p+p {
+  margin-top: 20px;
 }
 
 section p span {
