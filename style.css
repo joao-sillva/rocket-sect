@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #2C2B3D;
+  color: #fff;
+}
+
 #page {
   width: 1092px;
   margin: 0 auto;
@@ -21,6 +27,51 @@ nav ul {
   display: flex;
   gap: 64px;
   list-style: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav ul li a:hover {
+  color: #C2C2C2;
+}
+
+nav ul,
+section h1,
+footer {
+  font-family: "JetBrains Mono", sans-serif;
+}
+
+section h1 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 59px;
+}
+
+section h1 span {
+  color: #00BFA6;
+}
+
+section p {
+  color: #C2C2C2;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 28px;
+}
+
+section p span {
+  color: #00BFA6;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
   font-size: 14px;
   font-weight: 500;
   line-height: 28px;
