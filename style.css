@@ -9,3 +9,19 @@
   margin: 0 auto;
   padding-top: 70px;
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+nav ul {
+  display: flex;
+  gap: 64px;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+}
