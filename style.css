@@ -112,3 +112,37 @@ footer {
   bottom: 2rem;
   left: 2rem;
 }
+
+@media (width <= 78em) {
+  #page {
+    max-width: 38rem;
+    margin-inline: auto;
+  }
+
+  nav {
+    max-width: 38rem;
+    margin-bottom: 5rem;
+    flex-direction: column;
+  }
+
+  main,
+  main section {
+    max-width: 32.8rem;
+    margin-inline: auto;
+    flex-direction: column-reverse;
+  }
+
+  main img {
+    width: 100%;
+  }
+
+  #line {
+    width: 30rem;
+    text-align: center;
+  }
+
+  #padlock {
+    width: 2rem;
+    left: 2.4rem;
+  }
+}
