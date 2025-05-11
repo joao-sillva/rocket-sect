@@ -4,25 +4,30 @@
   box-sizing: border-box;
 }
 
+:root {
+  font-size: 62.5%;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   background: #2C2B3D;
   color: #fff;
+  font-size: 1.6rem;
   height: 100vh
 }
 
 #page {
-  width: 1092px;
+  width: 109.2rem;
   margin: 0 auto;
-  padding-top: 70px;
+  padding-top: 7rem;
 }
 
 main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 77px;
-  margin-bottom: 100px; 
+  gap: 7.7rem;
+  margin-bottom: 10rem; 
 }
 
 section {
@@ -34,16 +39,16 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 100px;
+  margin-bottom: 10rem;
 }
 
 nav ul {
   display: flex;
-  gap: 64px;
+  gap: 6.4rem;
   list-style: none;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 500;
-  line-height: 28px;
+  line-height: 2.8rem;
 }
 
 nav ul li a {
@@ -62,10 +67,10 @@ footer {
 }
 
 section h1 {
-  font-size: 36px;
+  font-size: 3.6rem;
   font-weight: 700;
-  line-height: 40px;
-  margin-bottom: 59px;
+  line-height: 4rem;
+  margin-bottom: 5.9rem;
 }
 
 section h1 span {
@@ -74,13 +79,13 @@ section h1 span {
 
 section p {
   color: #C2C2C2;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: normal;
-  line-height: 28px;
+  line-height: 2.8rem;
 }
 
 section p+p {
-  margin-top: 20px;
+  margin-top: 2rem;
 }
 
 section p span {
@@ -90,20 +95,20 @@ section p span {
 
 footer {
   text-align: center;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 500;
-  line-height: 28px;
+  line-height: 2.8rem;
 }
 
 #line {
-  width: 568px;
+  width: 56.8rem;
   height: 0;
-  margin: 0 auto 27px;
+  margin: 0 auto 2.7rem;
   border: 1px solid #00BFA6;
 }
 
 #padlock {
   position: fixed;
-  bottom: 20px;
-  left: 20px;
+  bottom: 2rem;
+  left: 2rem;
 }
